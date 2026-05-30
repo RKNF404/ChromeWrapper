@@ -1,8 +1,8 @@
 @echo off
 
 set "CHROMEWRAPPER_NAME=chromewrapper"
-set "CHROMEWRAPPER_DESCRIPTION=Does stuff"
-set "CHROMEWRAPPER_PATH=C:\Program Files\Google\Chrome\Application\chromewrapper.bat"
+set "CHROMEWRAPPER_DESCRIPTION=A wrapper for Chromium-based browser"
+set "CHROMEWRAPPER_PATH=C:\Program Files\Google\Chrome\Application\ChromeWrapper.ps1"
 set "CHROMEWRAPPER_AGRS=\"%CHROMEWRAPPER_PATH%\" \"%%1\""
 
 if not exist "%CHROMEWRAPPER_PATH%" (
@@ -15,7 +15,7 @@ if not exist "%CHROMEWRAPPER_PATH%" (
 
 	if ERRORLEVEL 1 (
 
-		echo ERROR: you have no privileges.
+		echo ERROR: You have no privileges.
 
 	) else (
 
