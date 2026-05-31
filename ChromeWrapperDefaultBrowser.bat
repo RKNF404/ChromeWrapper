@@ -1,6 +1,6 @@
 @echo off
 
-set "CHROMEWRAPPER_NAME=chromewrapper"
+set "CHROMEWRAPPER_NAME=ChromeWrapper"
 set "CHROMEWRAPPER_DESCRIPTION=A wrapper for Chromium-based browsers"
 set "CHROMEWRAPPER_PATH=C:\Program Files\Google\Chrome\Application\ChromeWrapper.ps1"
 set "CHROMEWRAPPER_AGRS=powershell.exe -ExecutionPolicy ByPass -File \"%CHROMEWRAPPER_PATH%\" \"%%1\""
