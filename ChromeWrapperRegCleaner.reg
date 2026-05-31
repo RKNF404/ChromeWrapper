@@ -4,7 +4,7 @@
 "ChromeWrapper"=-
 
 [-HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\ChromeWrapper]
-[-HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\ChromeWrapper.bat]
+[-HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\ChromeWrapper.ps1]
 
 [-HKEY_LOCAL_MACHINE\Software\Classes\ChromeWrapperHTML]
 [-HKEY_LOCAL_MACHINE\Software\Classes\ChromeWrapperURL]
